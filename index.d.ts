@@ -1,14 +1,13 @@
 // Definitions by: Augusto Lopez <https://github.com/augustolopez>
-import React from 'react';
-declare module '@fseehawer/react-circular-slider' {
-
+import React from "react";
+declare module "@simenjh/react-circular-slider" {
   interface Continuous {
     enabled: boolean;
     clicks: number;
     interval: number;
   }
 
-  type KnobPosition = 'top' | 'right' | 'bottom' | 'left';
+  type KnobPosition = "top" | "right" | "bottom" | "left";
 
   export interface CircularSliderProps {
     label?: string;
